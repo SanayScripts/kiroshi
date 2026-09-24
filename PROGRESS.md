@@ -1,7 +1,7 @@
 # PROGRESS
 
 ## Current verified state
-- Last verified commit: 470753c
+- Last verified commit: 7c90d47
 - `scripts/verify.sh` → passing
 - Live: not yet deployed
 
@@ -11,13 +11,13 @@
 - Next checkpoint: P0 feature-complete (milestone-based, not a clock percentage — see SPEC)
 
 ## Completed tasks
-(none)
+- T1, T2 (T2 verified against Neon: 5 tables)
 
 ## In progress / partially done
 (none)
 
 ## Next task
-T2 — Drizzle schema (see docs/TASKS.md)
+T3 — Clerk auth, Organizations enabled (see docs/TASKS.md)
 
 ## Flagged issues / deviations
 - Time budget / deadline in docs/SPEC.md are assumptions (self-paced, no fixed deadline) —
