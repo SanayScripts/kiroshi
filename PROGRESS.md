@@ -1,8 +1,8 @@
 # PROGRESS
 
 ## Current verified state
-- Last verified commit: (none yet — run T1 first)
-- `scripts/verify.sh` → not yet run
+- Last verified commit: 470753c
+- `scripts/verify.sh` → passing
 - Live: not yet deployed
 
 ## Time
@@ -17,7 +17,7 @@
 (none)
 
 ## Next task
-T1 — Scaffold repo (see docs/TASKS.md)
+T2 — Drizzle schema (see docs/TASKS.md)
 
 ## Flagged issues / deviations
 - Time budget / deadline in docs/SPEC.md are assumptions (self-paced, no fixed deadline) —

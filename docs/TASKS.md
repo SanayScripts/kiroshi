@@ -2,7 +2,7 @@
 
 Format per `project-build-spec.md` §5. ≤90 min each, vertical slices where possible.
 
-- [ ] T1 — Scaffold repo [P0] [est: 45] [depends: none]
+- [x] T1 — Scaffold repo [P0] [est: 45] [depends: none]
   - DoD: Next.js 15 + TS app boots, `.gitignore`, `.env.example`, `scripts/verify.sh` exists
   - Verify: `npm run dev` → app serves on localhost; `scripts/verify.sh` → exits 0
 
