@@ -1,7 +1,7 @@
 # PROGRESS
 
 ## Current verified state
-- Last verified commit: 7c90d47
+- Last verified commit: 6864228
 - `scripts/verify.sh` → passing
 - Live: not yet deployed
 
@@ -26,6 +26,8 @@ T3 — Clerk auth, Organizations enabled (see docs/TASKS.md)
 - Branching model: using feature branches + PR (not solo-on-main), per §9's own exception
   for when CI-on-PR is being demonstrated — this project explicitly wants CI/CD as a
   resume-visible artifact.
+
+- npm audit: 1 high (postcss nested in next 15.5, needs attacker-controlled CSS at build) + 5 moderate (drizzle-kit dev-only chain). Revisit before T26.
 
 ## Environment notes
 - Providers to set up: Neon (Postgres), Clerk, Trigger.dev, Vercel, Google Cloud (PageSpeed
