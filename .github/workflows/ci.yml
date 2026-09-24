@@ -45,7 +45,7 @@ jobs:
   deploy-trigger:
     runs-on: ubuntu-latest
     needs: verify
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && vars.TRIGGER_ENABLED == 'true' && vars.TRIGGER_ENABLED == 'true'
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && vars.TRIGGER_ENABLED == 'true'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
