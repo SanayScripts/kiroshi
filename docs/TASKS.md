@@ -6,7 +6,7 @@ Format per `project-build-spec.md` §5. ≤90 min each, vertical slices where po
   - DoD: Next.js 15 + TS app boots, `.gitignore`, `.env.example`, `scripts/verify.sh` exists
   - Verify: `npm run dev` → app serves on localhost; `scripts/verify.sh` → exits 0
 
-- [x] T2 — Postgres + Drizzle schema: users, orgs, sites, scans, findings [P0] [est: 60] [depends: T1]
+- [ ] T2 — Postgres + Drizzle schema: users, orgs, sites, scans, findings [P0] [est: 60] [depends: T1]
   - DoD: migration applies cleanly to a fresh Neon DB
   - Verify: `npx drizzle-kit push` → no errors; `psql` shows all 5 tables
 
