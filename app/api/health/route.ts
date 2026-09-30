@@ -1,11 +1,11 @@
 import { sql } from "drizzle-orm";
-import { db } from "@/db";
+import { getDb } from "@/db";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
   try {
-    await db.execute(sql`select 1`);
+    await getDb().execute(sql`select 1`);
     return Response.json({ status: "ok", db: "connected" });
   } catch {
     return Response.json({ status: "error", db: "unreachable" }, { status: 503 });
