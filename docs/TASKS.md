@@ -10,7 +10,7 @@ Format per `project-build-spec.md` §5. ≤90 min each, vertical slices where po
   - DoD: migration applies cleanly to a fresh Neon DB
   - Verify: `npx drizzle-kit push` → no errors; `psql` shows all 5 tables
 
-- [ ] T3 — Clerk auth wired, Organizations enabled [P0] [est: 45] [depends: T1]
+- [x] T3 — Clerk auth wired, Organizations enabled [P0] [est: 45] [depends: T1]
   - DoD: sign up/in works; a new org is created on first sign-in
   - Verify: manual sign-in → `/dashboard` redirect succeeds; unauthenticated hit → redirected to sign-in
 

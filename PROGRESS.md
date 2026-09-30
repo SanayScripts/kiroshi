@@ -11,13 +11,13 @@
 - Next checkpoint: P0 feature-complete (milestone-based, not a clock percentage — see SPEC)
 
 ## Completed tasks
-- T1, T2 (T2 verified against Neon: 5 tables)
+- T1, T2 (T2 verified against Neon: 5 tables), T3 (verified manually: unauth redirect, sign-up → org → dashboard)
 
 ## In progress / partially done
 (none)
 
 ## Next task
-T3 — Clerk auth, Organizations enabled (see docs/TASKS.md)
+T4 — /health endpoint (see docs/TASKS.md)
 
 ## Flagged issues / deviations
 - Time budget / deadline in docs/SPEC.md are assumptions (self-paced, no fixed deadline) —
