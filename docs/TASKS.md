@@ -14,7 +14,7 @@ Format per `project-build-spec.md` §5. ≤90 min each, vertical slices where po
   - DoD: sign up/in works; a new org is created on first sign-in
   - Verify: manual sign-in → `/dashboard` redirect succeeds; unauthenticated hit → redirected to sign-in
 
-- [ ] T4 — `/health` endpoint [P0] [est: 15] [depends: T2]
+- [x] T4 — `/health` endpoint [P0] [est: 15] [depends: T2]
   - DoD: returns 200 + DB connectivity check
   - Verify: `curl localhost:3000/api/health` → `{"status":"ok","db":"connected"}`
 
