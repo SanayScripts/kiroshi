@@ -1,7 +1,7 @@
 # PROGRESS
 
 ## Current verified state
-- Last verified commit: 939d18e
+- Last verified commit: 350641a
 - `scripts/verify.sh` → passing
 - Live: not yet deployed
 
